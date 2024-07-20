@@ -1,0 +1,305 @@
+*{
+    font-family: 'Times';
+    text-align: center;
+}
+body{
+    background-color: rgb(210, 210, 210);
+}
+
+.navbar{
+    width: 80%;
+    height: 80px;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-top: -150px;
+    border-style:solid;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1000;
+
+    
+}
+.navbar ul li{
+    display:inline-block;
+    margin-right: 13%;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.logo img{
+    
+    margin-top: -55px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a{
+    color: rgb(50, 50, 50);
+}
+
+.intro{
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    margin-top: 160px;
+    border: 10px;
+    border-style: double;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.intro img{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.text {
+    width: 44.5%;
+    height: 50%;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+}
+.Rseries{
+    border: 2px;
+    border-style: dashed;
+    margin-top: 30px;
+    margin-left: 38%;
+    width: 300px;
+    height: 50px;
+    
+}
+
+.special{
+    width: 90%;
+    height: 750px;
+    margin-left: 5%;
+    margin-top: 80px;
+    border: 7px;
+    border-style: double;
+    background-image: url(img/special.avif);
+    background-size: cover;
+    background-position: -190px;
+    border-radius: 10px;
+
+
+}
+
+.X1{
+    height: 50%;
+    width: 50%;
+    margin-top: 20%;
+    text-align: center;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 70px;
+}
+
+.quad{
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    margin-top: 80px;
+    border: 7px;
+    border-style: double;
+    background-image: url(GroninBG.jpg);
+    background-size: cover;
+    border-radius: 10px;
+
+
+}
+.bundle_2{
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    margin-top: 80px;
+    border: 7px;
+    border-style: double;
+    background-image: url(GroninBG.jpg);
+    background-size: cover;
+}
+.Lronin{
+    position: absolute;
+    margin-left: 37.7%;
+    margin-top: 25%;
+    padding: 10px 20px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 80px;
+}
+.Gronin{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 25%;
+    padding: 10px 20px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 80px;
+}
+
+.item-1{
+    width: 49.8%;
+    height: 50%; 
+    border: 1px;
+    border-style: solid;
+}
+.item-2{
+    width: 50%;
+    height: 50%;  
+    border: 1px;
+    border-style: solid;
+}
+.item-3{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top:-64%;
+    border: 1px;
+    border-style: solid;
+    margin-left: 2px;
+}
+.item-4{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top:-32%;
+    border: 1px;
+    border-style: solid;
+}
+
+.item-5{
+    width: 49.8%;
+    height: 50%; 
+    border: 1px;
+    border-style: solid;
+}
+.item-6{
+    width: 50%;
+    height: 50%;  
+    border: 1px;
+    border-style: solid;
+}
+.item-7{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top:-64%;
+    border: 1px;
+    border-style: solid;
+    margin-left: 2px;
+}
+.item-8{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top:-32%;
+    border: 1px;
+    border-style: solid;
+}
+
+.merch{
+    width: 90%;
+    height: 500px;
+    border: 5px;
+    border-style: double;
+    margin-top: 40px;
+    margin-left: 5%;
+    border-radius: 10px;
+
+}
+
+.merch_1{
+    width: 30%;
+    height: 90%;
+    margin-top:25px;
+    margin-left: 3.33%;
+    border: 2px;
+    border-color: gold;
+    border-style: groove;
+
+}
+.merch_2{
+    width: 30%;
+    height: 90%;
+    margin-top:-450px;
+    margin-left: 35.3%;
+    border: 2px;
+    border-color: gold;
+    border-style: groove;
+
+}
+
+.merch_3 {
+    width: 30%;
+    height: 90%;
+    margin-top:-452px;
+    margin-left:67.2%;
+    border: 2px;
+    border-color: gold;
+    border-style: groove;
+}
+
+.merch img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.next a{
+    color: whitesmoke;
+}
+
+.footer{
+    width: 99%;
+    height: 300px;
+    margin-left: .5%;
+    background-color: rgb(30, 30, 30);
+    border: 2px;
+    border-style:double;
+    margin-top: 100px;
+}
+
+.socials{
+    width: 49.5%;
+    height: 100%;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: double;
+}
+.socials a{
+    color: whitesmoke;
+}
+.socials ul li{
+    list-style-type: none;
+}
+.credits{
+    width: 49.9%;
+    height: 100%;
+    border: 1px;
+    border-color: whitesmoke;
+    border-style: double;
+    float: right;
+    margin-top: -300px;
+    color: whitesmoke;
+}
+
+hr{
+    width: 20%;
+}
+
+
+
